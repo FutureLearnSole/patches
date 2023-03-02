@@ -1,0 +1,31 @@
+diff --git a/src/routes/saved.svelte b/src/routes/saved.svelte
+index be09cb0..fceb607 100644
+--- a/src/routes/saved.svelte
++++ b/src/routes/saved.svelte
+@@ -88,8 +88,24 @@
+ 	-->
+ 	<!-- Notice if there aren't any saved verses -->
+ 	{#if browser && !areThereAnySavedVerses()}
+-		<div class="text-center">
++		<div class="text-center animate-bounce">
+ 			<img src="{envVariables.imageProxy}/usage-1.png" alt="How to save verses" />
+ 		</div>
+ 	{/if}
+ </div>
++
++<style>
++/* bismillahirrahmannirahimm, Sha'ban 7, 1444
++	https://quran-ml.netlify.app/saved */
++.animate-bounce	{/* animation: bounce 1s infinite; */
++animation: bounce 1s 3;}
++	@keyframes bounce {
++	  0%, 100% {
++		transform: translateY(-25%);
++		animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
++	  }
++	  50% {
++		transform: translateY(0);
++		animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
++	  }
++	}</style>
+\ No newline at end of file

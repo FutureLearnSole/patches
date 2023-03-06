@@ -1,0 +1,23 @@
+diff --git a/src/components/Keywords.svelte b/src/components/Keywords.svelte
+index 7555d39..ac827a0 100644
+--- a/src/components/Keywords.svelte
++++ b/src/components/Keywords.svelte
+@@ -67,7 +67,9 @@
+ 			const selected = 'selected';
+ 			const border = 'border-orange-400';
+ 			const bg = 'bg-orange-100';
++			const md = 'shadow-md';
+ 
++			e.target.classList.toggle(md);
+ 			e.target.classList.toggle(selected);
+ 			e.target.classList.toggle(border);
+ 			e.target.classList.toggle(bg);
+@@ -122,7 +124,7 @@
+ 	<div
+ 		on:click={select}
+ 		on:click={totalResultsForKeywords}
+-		class="shadow-lg flex flex-wrap justify-center mt-2 text-2xl px-5 font-cormorant text-slate-400 text-center"
++		class="flex flex-wrap justify-center mt-2 text-2xl px-5 font-cormorant text-slate-400 text-center"
+ 		bind:this={el}
+ 	>
+ 		{#each keywords as keyword}

@@ -1,0 +1,15 @@
+diff --git a/src/views/HomeView.vue b/src/views/HomeView.vue
+index 94269c5..1905190 100644
+--- a/src/views/HomeView.vue
++++ b/src/views/HomeView.vue
+@@ -156,4 +156,10 @@ export default {
+ .fade-leave-to {
+   opacity: 0;
+ }
++.focus {
++  opacity: 0;a;
++  @apply focus:outline-none focus:ring-2 focus:bg-indigo-50 focus:ring-indigo-800
++;
++}
++
+ </style>

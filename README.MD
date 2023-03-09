@@ -28,7 +28,6 @@ through toggleClass
 []()Sha'ban 14 , 1444
 [](focus.patch)
 +  @apply focus
-
-
-
-
+# BISMILLAH AR-RAHMAN AR-RAHEEM [ArRahman.patch](ArRahman.patch)
+> আস-সালাম, Kitab-Regular font-family ; font-style;;
+<!-- اللهم صل على محمد وعلى آل محمد -->

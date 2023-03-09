@@ -1,0 +1,62 @@
+From 53c89757e9fdc6e967bedee38489b447fef8c72c Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Thu, 9 Mar 2023 10:58:57 +0700
+Subject: =?UTF-8?q?=E0=A6=86=E0=A6=B8-=E0=A6=B8=E0=A6=BE=E0=A6=B2=E0=A6=BE?=
+ =?UTF-8?q?=E0=A6=AE,=20Kitab-Regular=20font-family=20;=20font-style;;?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ src/views/HomeView.vue      |  12 ++++++++++++
+ src/views/Kitab-Regular.ttf | Bin 0 -> 191036 bytes
+ src/views/SuraDetails.vue   |  16 ++++++++++++++--
+ 3 files changed, 26 insertions(+), 2 deletions(-)
+ create mode 100644 src/views/Kitab-Regular.ttf
+
+diff --git a/src/views/HomeView.vue b/src/views/HomeView.vue
+index 1905190..5f3ca42 100644
+--- a/src/views/HomeView.vue
++++ b/src/views/HomeView.vue
+@@ -1,3 +1,15 @@
++<style>
++ /* - */
++  @font-face {
++    font-family: 'Kitab-Regular';
++    font-style: normal;
++    font-weight: 300;
++    font-display: swap;/* 
++    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
++    */ src: url(src/views/Kitab-Regular.ttf) format('ttf');
++  }
++</style>
++
+diff --git a/src/views/Kitab-Regular.ttf b/src/views/Kitab-Regular.ttf
+new file mode 100644
+index 0000000..5c5c55a
+Binary files /dev/null and b/src/views/Kitab-Regular.ttf differ
+diff --git a/src/views/SuraDetails.vue b/src/views/SuraDetails.vue
+index c37b834..5c1ee69 100644
+--- a/src/views/SuraDetails.vue
++++ b/src/views/SuraDetails.vue
+@@ -1,3 +1,15 @@
++<style>
++  /* - */
++   @font-face {
++     font-family: 'Kitab-Regular';
++     font-style: normal;
++     font-weight: 300;
++     font-display: swap;/* 
++     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
++     */ src: url(src/views/Kitab-Regular.ttf) format('ttf');
++   }
++ </style>
++
+ 
+-<template>
+-  <main v-if="surah.verse">
++<template><!--BISMILLAH   -->
++  <main id="surahverse" v-if="surah.verse" style="font-family: Kitab-Regular;">
+-- 
+2.34.1
+

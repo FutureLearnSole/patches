@@ -1,0 +1,30 @@
+diff --git a/src/components/VersesListCard.vue b/src/components/VersesListCard.vue
+index 1fdc31b..cb1ceee 100644
+--- a/src/components/VersesListCard.vue
++++ b/src/components/VersesListCard.vue
+@@ -65,18 +65,15 @@ onMounted(() => {
+ 
+ <template><!-- bismillahirrahmannirahimm -->
+   <div id="card"
++    v-for="(verse, index) in props.surahs.verses"
++    :key="index"
++    :id="`verse-${index + 1}`"  
+     class="box-border w-full bg-white dark:bg-[#05291d] dark:shadow-none p-4 
+ 				shadow-md 
+ 
+ 
+ 				rounded-lg shadow-gray-200/50"
+-				style="
+-				box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 
+-				0 2px 4px -2px rgb(0 0 0 / 0.1), 
+-				0 2px 4px -2px rgb(0 0 0 / 0.1), 
+-				0 2px 4px -2px rgb(0 0 0 / 0.1), 
+-				0 2px 4px -2px rgb(0 0 0 / 0.9); ;"
+-    v-for="(verse, index) in props.surahs.verses"
+-    :key="index"
+-    :id="`verse-${index + 1}`"
+-  >
++				style=" 
++        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
++    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);		" 		
++  ><!-- https://developer.mozilla.org/ja/docs/Web/CSS/box-shadow#%E4%BE%8B -->

@@ -31,3 +31,14 @@ through toggleClass
 # BISMILLAH AR-RAHMAN AR-RAHEEM [ArRahman.patch](ArRahman.patch)
 > আস-সালাম, Kitab-Regular font-family ; font-style;;
 <!-- اللهم صل على محمد وعلى آل محمد -->
+[]()Sha'ban 14 , 1444
+# BISMILLAH AR-RAHMAN AR-RAHEEM
+[VersesListCard.patch](VersesListCard.patch)
+> আস-সালাম,
+![](quran.rizkyrafi.my.id_surah_1(Moto G4).png)
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+diff --git a/components/NavBar.tsx b/components/NavBar.tsx
+index b0f6402..0ab8a95 100644
+--- a/components/NavBar.tsx
++++ b/components/NavBar.tsx
+@@ -10,7 +10,7 @@ const NavBar = () => {
+           <Image width={80} height={42} src="/assets/logo.png" alt="" />
+         </div>
+ 
+-        <div className="flex gap-8 font-semibold">
++        <div className="flex ORDKUNSKAP">
+           <Link href={"#!"}>HEM</Link>
+           <Link href={"#!"}>KURSER</Link>
+           <Link href={"#!"}>ARTIKLAR</Link>
+diff --git a/styles/globals.css b/styles/globals.css
+index f2053ef..ef03fc4 100644
+--- a/styles/globals.css
++++ b/styles/globals.css
+@@ -9,3 +9,17 @@
+ * {
+   shape-rendering: geometricPrecision;
+ }
++/* الله أكبر *//* // اللهم صل على محمد وعلى آل محمد */
++:is(#ORDKUNSKAP,.ORDKUNSKAP){display: flex;
++  flex-direction: row;
++  /* الله أكبر */flex-wrap: wrap;
++  row-gap:  0.75rem;
++  flex-flow: wrap row ;
++  /* https://developer.mozilla.org/ja/docs/Web/CSS/flex-flow */
++
++ 
++  font-weight: 600;/* https://blog.shimin.io/why-i-dont-use-tailwind-in-production/ */
++}
++/* الله أكبر *//* // اللهم صل على محمد وعلى آل محمد */
++
++

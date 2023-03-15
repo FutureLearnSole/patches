@@ -37,8 +37,9 @@ through toggleClass
 > আস-সালাম,
 ![](quran.rizkyrafi.my.id_surah_1(Moto G4).png)
 
-
-
-
-
+## BISMILLAH AR-RAHMAN AR-RAHEEM
+Sha'ban 22 , 1444
+[AlGhaffaar.patch🌗️](AlGhaffaar.patch)
+![](Screen Shot 2023-03-15 at 14.06.17.png)
+this patch styles NavBar component full of links, st without   @apply use
 

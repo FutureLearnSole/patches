@@ -1,0 +1,33 @@
+From 5fbd5a11a02fa7bf887f19eb188e319bf7e7e018 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Sha'ban 24, 1444
+Subject: [Al Khaaliq] among mankind,strong &em  tags
+
+---
+ src/app/AboutUs/page.tsx | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/src/app/AboutUs/page.tsx b/src/app/AboutUs/page.tsx
+index 2f2a98d..8583a22 100644
+--- a/src/app/AboutUs/page.tsx
++++ b/src/app/AboutUs/page.tsx
+@@ -181,10 +181,10 @@ 
+                 <Text mt={5}>
+                   Anas bin Malik (RA) reported that the Messenger of Allah 
+-                  said `Allah has His people among mankind.` They said `O
+-                  Messenger of Allah, who are they` He said `They are the
+-                  people of the Quran the people of Allah and those who are
+-                  closest to Him.`
++                  said `<em>"Allah has His people among mankind."</em>` They said `"O
++                  Messenger of Allah, who are they"` He said `"They are the
++                  <strong>people of the Quran the people of Allah </strong>and those who are
++                  <strong>closest to Him.</strong>"`
+                 
+-- 
+2.34.1
+
+
+
+
+
+# سبحان الله وبحمده، سبحان الله العظيم  

@@ -43,3 +43,9 @@ Sha'ban 22 , 1444
 ![](Screen Shot 2023-03-15 at 14.06.17.png)
 this patch styles NavBar component full of links, st without   @apply use
 
+### BISMILLAH AR-RAHMAN AR-RAHEEM
+Sha'ban 24 , 1444
+[](page.patch)
+this patch ,strong &em  tags
+
+

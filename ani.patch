@@ -1,0 +1,39 @@
+diff --git a/ani.css b/ani.css
+new file mode 100644
+index 0000000..81aeb72
+--- /dev/null
++++ b/ani.css
+@@ -0,0 +1,33 @@
++/*﷽*/
++
++
++/*!﷽,bismillahirrahmannirahim,
++ * animate.css - https://animate.style/ * Version - 4.1.1 * Licensed under the Hippocratic License 2.1 - http://firstdonoharm.dev * * Copyright (c) 2022 Animate.css
++Another thing from Daniel Eden and friends
++*/
++:root { --animate-duration: 1s; --animate-delay: 1s; --animate-repeat: 1 }
++h1, .animate__animated { /*  Sha'ban 29, 1444 */
++	-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-duration: var(--animate-duration); animation-duration: var(--animate-duration); -webkit-animation-fill-mode: both; animation-fill-mode: both }
++h1, .animate__backInDown { -webkit-animation-name: backInDown; animation-name: backInDown }
++/*  Sha'ban 29, 1444 */
++@keyframes backInDown { 0% { opacity: .7; -webkit-transform: translateY(-1200px) scale(.7); transform: translateY(-1200px) scale(.7) }
++	80% { opacity: .7; -webkit-transform: translateY(0) scale(.7); transform: translateY(0) scale(.7) }
++	to { opacity: 1; -webkit-transform: scale(1); transform: scale(1) } }
++/*  Sha'ban 29, 1444 */
++:first-child + h3, h3:first-child, .animate__animated.animate__delay-2s { -webkit-animation-delay: 2s; animation-delay: 2s; -webkit-animation-delay: calc(var(--animate-delay)*2); animation-delay: calc(var(--animate-delay)*2); }
++:first-child + h3, .animate__backInRight { -webkit-animation-name: backInRight; animation-name: backInRight; }
++:first-child + h3, h3:first-child, .animate__animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-duration: var(--animate-duration); animation-duration: var(--animate-duration); -webkit-animation-fill-mode: both; animation-fill-mode: both; }
++@-webkit-keyframes backInRight { 0% { opacity: .7; -webkit-transform: translateX(2000px) scale(.7); transform: translateX(2000px) scale(.7) }
++	80% { opacity: .7; -webkit-transform: translateX(0) scale(.7); transform: translateX(0) scale(.7) }
++	to { opacity: 1; -webkit-transform: scale(1); transform: scale(1) } }
++@keyframes backInRight { 0% { opacity: .7; -webkit-transform: translateX(2000px) scale(.7); transform: translateX(2000px) scale(.7) }
++	80% { opacity: .7; -webkit-transform: translateX(0) scale(.7); transform: translateX(0) scale(.7) }
++	to { opacity: 1; -webkit-transform: scale(1); transform: scale(1) } }
++/*  Sha'ban 29, 1444 */
++
++ul button{
++	margin: 0 .3cm ;
++	
++	
++}/*  Sha'ban 29, 1444 */
++
